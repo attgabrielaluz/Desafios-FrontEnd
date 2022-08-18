@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414; 
+}
+
+h1{
+color: white;
+font-family: 'roboto';
+}
+
+.media-picture{
+    height: 400px;
+    background-image: url("../img/Dr-Estranho.jpg");
+    background-size: cover;
+    background-position: left;
+}
+.review-score{
+    color: white;
+    background: #e6bd09;
+    padding: 12px;
+}
+
+h2{
+    color: steelblue ;
+}
+
+p{
+    color:#bdbdbd;
+    font-family: 'roboto';
+
+}
+a{
+    color:#e6bd09
+}
