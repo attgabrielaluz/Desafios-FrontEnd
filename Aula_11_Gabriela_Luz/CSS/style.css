@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+:root {
+  --cor-preta: #222222;
+  --cor-vermelho: #fc200c;
+  --cor-verde: #39b24a;
+  --cor-gelo: #f3f3f3;
+  --cor-branco: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--cor-gelo);
+}
+
+/*Menu -logo e navegação*/
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: var(--cor-preta);
+  justify-content: space-between;
+  background: #222222;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-header {
+  position: absolute;
+  width: 234px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-around;
+  width: 276px;
+  height: 19px;
+  margin-top: 40px;
+  margin-left: 80vw;
+  margin-bottom: 41px;
+  margin-right: 28px; 
+}
+
+.menu-header a {
+  font-size: 16px;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--cor-gelo);
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
+
+
+ 
+.principal .entregafree {
+  background-image: url("../img/delivery.jpg");
+  position: absolute;
+  width: 490px;
+  height: 350px;
+  left: 19px;
+  top: 135px;
+  border-radius: 5px;
+  background-repeat: no-repeat;  
+  margin-left: 155px;
+  margin-bottom: 35px;
+}
+
+ 
+h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 4px;
+  color: var(--cor-vermelho);
+}
+
+h2 .textobranco {
+  color: var(--cor-branco);
+}
+
+.principal .cardapio {
+  display: flex;  
+  position: absolute;
+  width: 491px;
+  height: 350px;
+  left: 514px;
+  top: 135px;
+  background: #ffffff;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  margin-left: 155px;
+  margin-bottom: 35px;
+}
+
+.principal .cardapio h2 {
+  position: absolute;
+  width: 205px;
+  height: 28px;
+  left: 160px;
+  top: 26px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  
+}
+ 
+
+.cardapio ol {
+  width: 146px;
+ height: 178px; 
+ padding-top: 112px; 
+ line-height: 30px;
+}
+ 
+
+.cardapio ol li{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700; 
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.PizzaFalling {
+width: 92px;
+height: 129px;
+left: 839px;
+padding-top: 132px;
+}
+
+footer { 
+  display: table-row;
+  position: absolute;
+  width: 100%;
+  height: 150px; 
+  bottom: 8px; 
+  background:var(--cor-preta);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.menu-footer { 
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 44px;
+  height: 19px;   
+  bottom: 120px;
+  line-height: 30px;   
+  padding-left: 20px;
+}
+
+footer a {  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;  
+  text-decoration: none;
+  color: var(--cor-gelo);
+
+}
+footer .logo-footer {   
+  width: 212px;
+  height: 80px; 
+  top: 555px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  margin-right: 42px;
+  margin-bottom: 35px;
+  margin-left: 80vw;
+ 
+}
+
+ 
