@@ -144,14 +144,27 @@ main {
   margin-top: 23px;
 }
 
-footer {
+footer {display: flex;
   position: relative;
   width: 100vw;
-  height: 51px;
+  height: 54px;
   background: #00669f;
   padding: 16px 28px;
+  font-size: 1.5em;
   color: #f3f3f3;
   margin-top: 151px; 
+  align-items: center;
+  justify-content: space-evenly;
 }
 
+footer a {
+  display: flex;
+  background-image: url("./img/icongithub.png");
+  width: 122px; 
+  height: 33px;
+  background-size: cover;
+}
 
+.logo-footer {  
+  padding-top: 4px;
+  }
